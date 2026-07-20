@@ -1,71 +1,309 @@
-**Privacy Policy**
+# Politika e Privatësisë - Trove
 
-This privacy policy applies to the Trove app (hereby referred to as "Application") for mobile devices that was created by Trove Dev (hereby referred to as "Service Provider") as a Freemium service. This service is intended for use "AS IS".
+**Data e fundit e përditësimit:** 17 Korrik 2026
 
-**Information Collection and Use**
+**Versioni zyrtar i hostuar (Play Store):** https://github.com/trove-treasure/trove-privacy/blob/main/privacy.md
+*(nëse e përditëson këtë file, përditëso edhe kopjen te repo-i i mësipërm, në mënyrë që të dyja versionet të mbeten identike)*
 
-The Application collects information when you download and use it. This information may include information such as
+## 1. Hyrje
 
-*   Your device's Internet Protocol address (e.g. IP address)
-*   The pages of the Application that you visit, the time and date of your visit, the time spent on those pages
-*   The time spent on the Application
-*   The operating system you use on your mobile device
+Mirë se vini në Trove ("ne", "nesh", "tonë"). Privatësia juaj është
+prioriteti ynë. Kjo Politikë e Privatësisë shpjegon si mblidhen,
+përdoren dhe mbrohen të dhënat tuaja kur përdorni aplikacionin tonë.
 
-The Application does not gather precise information about the location of your mobile device.
+## 2. Të dhënat që mbledhim
 
-The Application does not use Artificial Intelligence (AI) technologies to process your data or provide features.
+### 2.1 Të dhëna që ruhen LOKALISHT në pajisjen tuaj
 
-The Service Provider may use the information you provided to contact you from time to time to provide you with important information, required notices and marketing promotions.
+Trove është aplikacion **offline-first**. Të gjitha të dhënat tuaja
+personale ruhen vetëm në pajisjen tuaj (bazë e dhënash lokale SQLite) dhe
+nuk transmetohen në serverët tanë:
 
-For a better experience, while using the Application, the Service Provider may require you to provide us with certain personally identifiable information. The information that the Service Provider request will be retained by them and used as described in this privacy policy.
+- Receta dhe ilaçe shtëpiake
+- Shënime personale
+- Të dhëna shëndetësore familjare
+- Shpenzime dhe buxhete
+- Anëtarë të familjes
+- Borxhe dhe pagesa
+- Detyra kujdesi
+- Cikli menstrual dhe regjistrime ditore
+- Medikamente dhe rikujtues
+- Imazhe që ngarkoni
 
-**Third Party Access**
+### 2.2 Të dhëna anonime për analytics (Firebase Analytics & Crashlytics)
 
-Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.
+Mbledhim të dhëna **anonime** dhe **agregate** për të kuptuar si
+përdoret aplikacioni:
 
-Please note that the Application utilizes third-party services that have their own Privacy Policy about handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:
+- Versioni i aplikacionit dhe sistemi operativ
+- Modeli i pajisjes (jo numri serik)
+- Vendi (jo qyteti specifik)
+- Sa kohë kaloni në aplikacion
+- Cilat funksione përdorni më shumë (pa përmbajtje)
+- Crashe dhe gabime teknike (Firebase Crashlytics)
 
-*   [Google Analytics for Firebase](https://firebase.google.com/support/privacy)
-*   [Firebase Crashlytics](https://firebase.google.com/support/privacy/)
+**Nuk mbledhim:**
 
-The Service Provider may disclose User Provided and Automatically Collected Information:
+- Emrin tuaj
+- Email-in
+- Numrin e telefonit
+- Përmbajtjen e shënimeve, recetave, apo të dhënave shëndetësore
+- Imazhet që ngarkoni
 
-*   as required by law, such as to comply with a subpoena, or similar legal process;
-*   when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;
-*   with their trusted services providers who work on their behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.
+Mund ta **çaktivizoni Analytics në çdo moment** nga *Cilësime* → çelësi
+"Ndihmo me statistika anonime" në fund të faqes.
 
-**Opt-Out Rights**
+### 2.3 Backup në Google Drive (opsional)
 
-You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.
+Nëse aktivizoni manualisht lidhjen me Google Drive nga *Cilësime*:
 
-**Data Retention Policy**
+- Përdorim Google Sign-In për t'ju autentikuar
+- Backup-i (file `.tbak`, **i kriptuar lokalisht me AES-256** para se të
+  ngarkohet) ruhet në një folder të quajtur **"Trove Backups"** brenda
+  Google Drive-it TUAJ personal — jo në serverët tanë
+- Ky folder është i dukshëm dhe i aksesueshëm nga ju direkt në Google
+  Drive; mund ta shihni, shkarkoni apo fshini file-in në çdo moment,
+  qoftë nga aplikacioni Trove, qoftë direkt nga Google Drive
+- Ne **NUK** kemi qasje në të dhënat tuaja të Google Drive
+- Mund të shkëputni lidhjen me Google (sign out) në çdo moment nga
+  aplikacioni
 
-The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at trove.treasure.app@gmail.com and they will respond in a reasonable time.
+## 3. Si i përdorim të dhënat
 
-**Children**
+Të dhënat anonime të analytics përdoren për:
 
-The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.
+- Përmirësimin e aplikacionit
+- Identifikimin dhe rregullimin e bug-eve
+- Kuptimin e funksioneve më të dobishme
+- Vendimet për zhvillim të mëtejshëm
 
-The Application does not address anyone under the age of 13\. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age. In the case the Service Provider discover that a child under 13 has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider (trove.treasure.app@gmail.com) so that they will be able to take the necessary actions.
+**Nuk i shesim, nuk i ndajmë dhe nuk i transferojmë të dhënat tuaja
+te palë të treta për qëllime marketingu.**
 
-**Security**
+## 4. Të dhënat shëndetësore
 
-The Service Provider is concerned about safeguarding the confidentiality of your information. The Service Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider processes and maintains.
+Trove përmban funksione për menaxhimin e shëndetit familjar (rekorde
+mjekësore, medikamente, cikli menstrual). Të gjitha këto të dhëna:
 
-**Changes**
+- **Ruhen vetëm në pajisjen tuaj**
+- **Nuk transmetohen kurrë** në internet (përveç nëse aktivizoni
+  manualisht backup në Google Drive tuaj, siç përshkruhet te 2.3)
+- Mund të mbrohen me PIN dhe/ose biometrikë (gjurmë gishti / fytyrë)
+  përmes opsioneve të sigurisë (*Cilësime → Siguria*)
+- Mund të fshihen duke çinstaluar aplikacionin, ose duke pastruar
+  ruajtjen (storage) e tij nga Cilësimet e sistemit Android
 
-This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
+**Trove nuk është substitut për këshillim mjekësor profesional.**
 
-This privacy policy is effective as of 2026-05-06
+## 5. Siguria
 
-**Your Consent**
+Marrim masa për të mbrojtur të dhënat tuaja:
 
-By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us.
+- **PIN lock** dhe **autentikim biometrik** (gjurmë gishti / Face ID)
+  për module të ndjeshme — kyçja/hyrja verifikohet plotësisht nga
+  sistemi operativ i pajisjes tuaj (Android BiometricPrompt); Trove
+  **nuk ruan dhe nuk sheh kurrë** të dhënat tuaja biometrike — ne
+  marrim vetëm rezultatin "sukses/dështim" nga sistemi operativ
+- Kriptim **AES-256** për backup-et lokale/Google Drive (kur aktivizohet)
+- Nuk dërgohen kredenciale në serverë të jashtëm
 
-**Contact Us**
+## 6. In-App Purchases (Trove Premium)
 
-If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at trove.treasure.app@gmail.com.
+Funksionet me pagesë (Trove Premium) **nuk janë ende aktive** në këtë
+version të aplikacionit (është ende në fazë testimi/pre-lançimi). Kur
+të aktivizohen, çdo transaksion do të menaxhohet plotësisht nga
+**Google Play Billing**. Ne nuk do të ruajmë kurrë:
 
-* * *
+- Numrat e kartës suaj
+- Detajet e pagesës
+- Adresën e faturimit
 
-This privacy policy page was generated by [App Privacy Policy Generator](https://app-privacy-policy-generator.nisrulz.com/)
+Do të mbajmë vetëm një token të thjeshtë verifikimi lokal për të
+konfirmuar statusin tuaj premium.
+
+## 7. Të drejtat tuaja (GDPR)
+
+Si përdorues kudo qofshi, ju keni të drejtë të:
+
+- **Aksesoni** të gjitha të dhënat tuaja — janë në pajisjen tuaj dhe të
+  dukshme direkt në aplikacion
+- **Korrigjoni** çdo informacion në çdo kohë nga vetë aplikacioni
+- **Çaktivizoni Analytics** (*Cilësime* → "Ndihmo me statistika anonime")
+- **Fshini** të dhënat tuaja duke çinstaluar aplikacionin ose duke
+  pastruar ruajtjen (storage) e tij nga Cilësimet e sistemit Android —
+  kjo fshin përgjithmonë bazën e të dhënave lokale
+  *(një buton "Fshi të gjitha të dhënat" brenda vetë aplikacionit, si
+  dhe eksporti/importi i të dhënave, janë funksione të planifikuara
+  por ende jo të disponueshme në këtë version)*
+
+## 8. Fëmijët
+
+Trove nuk është dizajnuar për përdorues nën moshën 13 vjeç. Nuk
+mbledhim me dije të dhëna nga fëmijë nën këtë moshë.
+
+## 9. Ndryshime në këtë politikë
+
+Mund të përditësojmë këtë politikë nga koha në kohë. Ndryshimet do
+të publikohen në aplikacion dhe data e fundit e përditësimit do të
+ndryshohet.
+
+## 10. Kontakti
+
+Për pyetje rreth privatësisë, na kontaktoni në:
+
+**Email:** trove.treasure.app@gmail.com
+**Aplikacioni:** Trove
+**Zhvilluesi:** Trove Team
+
+---
+
+# Privacy Policy - Trove (English)
+
+**Last Updated:** July 17, 2026
+
+**Official hosted version (Play Store):** https://github.com/trove-treasure/trove-privacy/blob/main/privacy.md
+*(if you edit this file, update the copy in that repo too, so both versions stay identical)*
+
+## 1. Introduction
+
+Welcome to Trove. This Privacy Policy explains how we collect, use,
+and protect your data when you use our application.
+
+## 2. Data We Collect
+
+### 2.1 Data Stored LOCALLY on Your Device
+
+Trove is an **offline-first** application. All your personal data is
+stored only on your device (local SQLite database) and never
+transmitted to our servers:
+
+- Recipes and home remedies
+- Personal notes
+- Family health records
+- Expenses and budgets
+- Family members
+- Debts and payments
+- Care tasks
+- Menstrual cycle and daily logs
+- Medications and reminders
+- Images you upload
+
+### 2.2 Anonymous Analytics Data (Firebase Analytics & Crashlytics)
+
+We collect **anonymous** and **aggregate** data to understand app usage:
+
+- App version and operating system
+- Device model (not serial number)
+- Country (not specific city)
+- Time spent in the app
+- Most used features (without content)
+- Crashes and technical errors (Firebase Crashlytics)
+
+**We do NOT collect:**
+
+- Your name
+- Email
+- Phone number
+- Content of notes, recipes, or health data
+- Images you upload
+
+You can **disable Analytics at any time** from *Settings* → the
+"Help with anonymous statistics" switch at the bottom of the page.
+
+### 2.3 Google Drive Backup (Optional)
+
+If you manually connect Google Drive from *Settings*:
+
+- We use Google Sign-In to authenticate you
+- The backup (a `.tbak` file, **encrypted locally with AES-256** before
+  upload) is stored in a folder named **"Trove Backups"** inside YOUR
+  own personal Google Drive — not on our servers
+- This folder is visible and accessible to you directly in Google
+  Drive; you can view, download, or delete the file at any time,
+  either from the Trove app or directly from Google Drive
+- We do **NOT** have access to your Google Drive data
+- You can disconnect Google (sign out) at any time from the app
+
+## 3. How We Use Data
+
+Anonymous analytics data is used for:
+
+- Improving the application
+- Identifying and fixing bugs
+- Understanding most useful features
+- Future development decisions
+
+**We do not sell, share, or transfer your data to third parties for
+marketing purposes.**
+
+## 4. Health Data
+
+Trove contains features for managing family health (medical records,
+medications, menstrual cycle). All such data:
+
+- **Is stored only on your device**
+- **Is never transmitted** over the internet (unless you manually
+  enable backup to your own Google Drive, as described in 2.3)
+- Can be protected with a PIN and/or biometrics (fingerprint / face)
+  through security options (*Settings → Security*)
+- Can be deleted by uninstalling the app, or by clearing its storage
+  from Android system Settings
+
+**Trove is not a substitute for professional medical advice.**
+
+## 5. Security
+
+We take measures to protect your data:
+
+- **PIN lock** and **biometric authentication** (fingerprint / Face ID)
+  for sensitive modules — unlocking is verified entirely by your
+  device's own operating system (Android BiometricPrompt); Trove
+  **never stores or sees** your biometric data — we only receive a
+  "success/failure" result from the OS
+- **AES-256** encryption for local/Google Drive backups (when enabled)
+- No credentials are sent to external servers
+
+## 6. In-App Purchases (Trove Premium)
+
+Paid features (Trove Premium) are **not yet active** in this version of
+the app (still in testing/pre-launch). Once enabled, every transaction
+will be fully managed by **Google Play Billing**. We will never store:
+
+- Your card numbers
+- Payment details
+- Billing address
+
+We will only keep a simple local verification token to confirm your
+premium status.
+
+## 7. Your Rights (GDPR)
+
+As a user regardless of location, you have the right to:
+
+- **Access** all your data — it lives on your device and is directly
+  visible in the app
+- **Correct** any information at any time from within the app
+- **Disable Analytics** (*Settings* → "Help with anonymous statistics")
+- **Delete** your data by uninstalling the app, or by clearing its
+  storage from Android system Settings — this permanently deletes the
+  local database
+  *(an in-app "Delete all data" button, as well as data export/import,
+  are planned features not yet available in this version)*
+
+## 8. Children
+
+Trove is not designed for users under the age of 13. We do not
+knowingly collect data from children under this age.
+
+## 9. Changes to This Policy
+
+We may update this policy from time to time. Changes will be
+published in the app and the last updated date will be modified.
+
+## 10. Contact
+
+For privacy questions, contact us at:
+
+**Email:** trove.treasure.app@gmail.com
+**Application:** Trove
+**Developer:** Trove Team
