@@ -3,7 +3,7 @@
 **Data e fundit e përditësimit:** 17 Korrik 2026
 
 **Versioni zyrtar i hostuar (Play Store):** https://github.com/trove-treasure/trove-privacy/blob/main/privacy.md
-*(nëse e përditëson këtë file, përditëso edhe kopjen te repo-i i mësipërm, në mënyrë që të dyja versionet të mbeten identike)*
+
 
 ## 1. Hyrje
 
@@ -162,7 +162,6 @@ Për pyetje rreth privatësisë, na kontaktoni në:
 **Last Updated:** July 17, 2026
 
 **Official hosted version (Play Store):** https://github.com/trove-treasure/trove-privacy/blob/main/privacy.md
-*(if you edit this file, update the copy in that repo too, so both versions stay identical)*
 
 ## 1. Introduction
 
